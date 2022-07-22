@@ -1,10 +1,4 @@
-import os
-from dotenv import load_dotenv
-from .config import Redis
 from rejson import Path
-
-
-load_dotenv()
 
 
 class Cache:

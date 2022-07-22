@@ -33,7 +33,7 @@ class GPT:
         redis_client = redis.create_connection()
         self.producer = Producer(redis_client)
 
-    async def query(self, input: str) -> list:
+    def query(self, input: str) -> list:
         self.payload["inputs"] = f"{input} Bot:"
         data = json.dumps(self.payload)
         response = requests.request(
@@ -45,16 +45,5 @@ class GPT:
 
         res = str(text.split("Human:")[0]).strip("\n").strip()
         print(res)
-
-        msg = Message(
-            msg=res
-        )
-
-        stream_data = {}
-        stream_data[str(token)] = str(msg.dict())
-
-        await producer.add_to_stream(stream_data, "response_channel")
-
-        await cache.add_message_to_cache(token=token, source="bot", message_data=msg.dict())
 
         return res
