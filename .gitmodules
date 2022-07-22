@@ -1,0 +1,3 @@
+[submodule "fullstack-ai-chatbot.wiki"]
+	path = fullstack-ai-chatbot.wiki
+	url = https://github.com/stephensanwo/fullstack-ai-chatbot.wiki.git
