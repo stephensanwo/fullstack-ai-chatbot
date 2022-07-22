@@ -1,6 +1,8 @@
 # Build a Fullstack AI Chatbot with Redis, React, FastAPI and GPT
 
-## Part 1 - Introduction - What we will be building
+**Link: https://github.com/stephensanwo/fullstack-ai-chatbot/wiki**
+
+## What we will be building
 
 Building a **working** a fullstack application requires thinking about the so many moving parts, and making decisions that will be critical to the success of your app, such for example, what language do you use, what platform to deploy on, are you going to deploy a containerised software on a server, or make use of server-less functions to handle the backend, do you intend to use third-party APIs to handle complex parts of your application, like authentication or payments?, where do you store the data? added to all that, you'll also need to think about the user interface, design and usability of your application and much more. This is why complex large applications require a multifunctional development team, collaborating to build the app.
 
