@@ -1,14 +1,9 @@
 import os
 from dotenv import load_dotenv
-import aiohttp
-import asyncio
-from multiprocessing import current_process
-import time
 import requests
 import json
 from ..redis.config import Redis
 from ..schema.chat import Message
-from ..redis.producer import Producer
 
 
 load_dotenv()
