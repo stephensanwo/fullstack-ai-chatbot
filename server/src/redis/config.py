@@ -28,12 +28,3 @@ class Redis():
                                 port=self.REDIS_PORT, decode_responses=True, username=self.REDIS_USER, password=self.REDIS_PASSWORD)
 
         return self.redisJson
-
-
-# class RedisJson():
-#     def __init__(self):
-#         """initialize  connection """
-#         self.REDIS_HOST = os.environ['REDIS_HOST']
-#         self.REDIS_PORT = os.environ['REDIS_PORT']
-#         self.REDIS_PASSWORD = os.environ['REDIS_PASSWORD']
-#         self.REDIS_USER = os.environ['REDIS_USER']
