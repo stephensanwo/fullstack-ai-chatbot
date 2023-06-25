@@ -1,0 +1,30 @@
+.notification {
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  .notification-warning {
+    background-color: #f2eedf;
+    border-left: 5px solid #f1c21b;
+  }
+  
+  .notification-error {
+    background-color: #faf3f3;
+    border-left: 5px solid #ee0713;
+  }
+  
+  .notification-neutral {
+    background-color: #e8e8e8;
+    border-left: 5px solid #393939;
+  }
+  
+  .notification-success {
+    background-color: #eaf9ee;
+    border-left: 5px solid #42be65;
+  }
+  

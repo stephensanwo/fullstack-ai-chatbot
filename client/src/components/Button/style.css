@@ -1,0 +1,55 @@
+/* Button */
+.button {
+  all: unset;
+  cursor: pointer;
+  height: 50px;
+  min-width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  cursor: pointer;
+  border-radius: 2px;
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  text-align: left;
+  color: #fff;
+  width: fit-content;
+}
+
+.button-secondary {
+  background-color: #000;
+  }
+  
+.button-secondary:hover {
+background-color: #2E2E2E;
+}
+  
+.button-primary {
+background-color: #0053ff;
+}
+  
+.button-primary:hover {
+background-color: #1f70ff;
+}
+.button-danger {
+  background-color: rgb(255, 39, 39);
+}
+    
+.button-danger:hover {
+background-color: #ff4545;
+}
+
+.button-tertiary {
+background-color: rgb(100, 100, 100);
+}
+
+.button-tertiary:hover {
+background-color: #2E2E2E;
+}
+
+.button h6 {
+  color: #fff;
+  font-size: 12px;
+  }
+    

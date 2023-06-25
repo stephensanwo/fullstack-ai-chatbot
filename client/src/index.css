@@ -1,0 +1,106 @@
+@import url('https://1.www.s81c.com/common/carbon/plex/sans.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border:  1px dashed #007AFF; */
+  
+  }
+  
+  body {
+    background-color: #fff;
+    font-family: IBM Plex Sans, Helvetica Neue, Arial, sans-serif;
+    position: relative;
+  }
+
+h1 {
+    font-weight: 600;
+    font-size: 36px;
+    text-align: left;
+    font-family: "IBM Plex Sans";
+    line-height: 1.4;
+  }
+
+h2 {
+font-weight: 600;
+font-size: 28px;
+text-align: left;
+font-family: "IBM Plex Sans";
+line-height: 1.4;
+}
+  
+h4 {
+font-weight: 600;
+font-size: 18px;
+line-height: 1.5;
+color: #000;
+font-family: "IBM Plex Sans";
+
+
+}
+
+h5 {
+font-size: 14px;
+font-family: "IBM Plex Sans";
+font-style: normal;
+font-weight: 600;
+line-height: 1.5;
+}
+
+h6 {
+font-size: 12px;
+font-family: "IBM Plex Sans";
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+}
+
+p {
+font-weight: 400;
+font-size: 12px;
+font-family: "IBM Plex Sans";
+text-align: left;
+color: #000;
+line-height: 1.5;
+
+}
+
+li {
+font-weight: 400;
+font-size: 12px;
+font-family: "IBM Plex Sans";
+text-align: left;
+color: #000;
+line-height: 1.5;
+}
+
+ul {
+list-style-position: inside;
+}
+
+small {
+font-weight: 400;
+font-size: 12px;
+font-family: "IBM Plex Sans";
+text-align: left;
+color: #000;
+line-height: 1.5;
+
+}
+
+a {
+font-weight: 500;
+font-size: 12px;
+text-align: center;
+font-family: "IBM Plex Sans";
+text-align: left;
+color: #000;
+text-decoration: none;
+line-height: 16px;
+}
+
+a:hover {
+color: #007AFF;
+}
+  

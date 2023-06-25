@@ -1,0 +1,69 @@
+/* Navigation */
+.app-nav-container {
+    width: 100vw;
+    top: 0;
+    z-index: 1000;
+    height: 50px;
+    background-color: #000;
+  }
+
+.app-nav {
+  height: 100%;
+  background: transparent;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.app-nav a {
+  color: #fff;
+  font-size: 12px;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.app-nav a:hover {
+  color: #7BBAF1;
+}
+
+.nav-link-container {
+  width: 100vw;
+  display: flex;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 35px
+}
+
+.nav-icons {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-icon {
+  cursor: pointer;
+
+}
+
+@media (max-width: 900px) {
+  .nav-link-container .nav-icons {
+    display: none;
+  }
+  .nav-links > a {
+    display: none;
+  }
+}

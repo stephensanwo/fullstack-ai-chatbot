@@ -1,0 +1,60 @@
+/* Button */
+.link-button {
+    all: unset;
+    height: 30px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 8px;
+    min-width: 20px;
+    width: fit-content;
+
+  }
+
+/* .link-button > h6 {
+
+} */
+
+.link-button-secondary {
+background-color: #000;
+}
+
+.link-button-secondary:hover {
+background-color: #2E2E2E;
+}
+
+.link-button-primary {
+background-color: #0053ff;
+}
+
+.link-button-primary:hover {
+background-color: #1f70ff;
+}
+.link-button-danger {
+  background-color: rgb(255, 39, 39);
+  }
+  
+.link-button-danger:hover {
+  background-color: #ff4545;
+  }
+
+.link-button-tertiary {
+  background-color: rgb(100, 100, 100);
+  }
+  
+.link-button-tertiary:hover {
+background-color: #2E2E2E;
+}
+
+.link-button h6 {
+color: #fff;
+font-size: 12px;
+}
+  
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}

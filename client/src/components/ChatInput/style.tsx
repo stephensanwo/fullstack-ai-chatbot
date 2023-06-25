@@ -1,0 +1,51 @@
+import styled from "styled-components";
+
+export const ChatMessage = styled.input`
+  all: unset;
+  height: 50px;
+  min-width: 250px;
+  width: 80%;
+  background-color: #f4f4f4;
+  border: 1px solid #e8e8e8;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  padding-left: 10px;
+
+  ::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: left;
+  }
+`;
+
+export const ChatInputContainer = styled.form`
+  display: flex;
+  width: 100%;
+`;
+
+export const SendMessage = styled.button`
+  all: unset;
+  cursor: pointer;
+  height: 50px;
+  min-width: 80px;
+  width: 20%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  text-align: left;
+  color: #fff;
+
+  :hover {
+    background-color: rgba(0, 0, 0, 0.788);
+    color: #fff;
+  }
+`;
