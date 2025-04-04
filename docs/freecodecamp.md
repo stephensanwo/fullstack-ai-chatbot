@@ -213,7 +213,7 @@ We created three endpoints:
 
 Next, connect the chat route to our main API. First we need to `import chat from src.chat` within our `main.py` file. Then we will include the router by literally calling an `include_router` method on the initialized `FastAPI` class and passing chat as the argument.
 
-Update your `api.py` code as shown below:
+Update your `main.py` code as shown below:
 
 ```python
 from fastapi import FastAPI, Request
